@@ -1,9 +1,12 @@
 // src/app/page.tsx
+"use client";
+
+
 import { useState, useEffect } from "react";
 import useSWR from "swr";
 
 // Components
-import { SearchBar } from "@/components/SearchBar";
+import { SearchBar } from "@/components/SearchBar"; 
 import { SuggestionsList } from "@/components/SuggestionsList";
 
 
