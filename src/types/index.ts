@@ -24,6 +24,8 @@ export type Food = {
 export type Attraction = {
   name: string;
   description: string;
+  imageUrl?: string;
+
 };
 
 export type TravelData = {

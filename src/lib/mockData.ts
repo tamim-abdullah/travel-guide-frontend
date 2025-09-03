@@ -8,7 +8,7 @@ export const mockTravelData = (location: string): TravelData | null => {
         name: "Srimangal",
         description: "The tea capital of Bangladesh, known for lush tea gardens, forests, and birdwatching.",
         bestTimeToVisit: "November to March",
-        imageUrl: "https://source.unsplash.com/random/800x400/?tea,garden,hills",
+        imageUrl: "https://cosmosgroup.sgp1.digitaloceanspaces.com/news/9782559_best%20tea%20gardens%20Bangladesh.jpg",
       },
       hotels: [
         {
@@ -16,26 +16,26 @@ export const mockTravelData = (location: string): TravelData | null => {
           name: "Green View Resort",
           price: "BDT 3,500/night",
           rating: 4.5,
-          imageUrl: "https://source.unsplash.com/random/300x200/?resort",
+          imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/71/60/66/getlstd-property-photo.jpg?w=1200&h=-1&s=1",
         },
         {
           id: "2",
           name: "Tea Garden Inn",
           price: "BDT 2,200/night",
           rating: 4.0,
-          imageUrl: "https://source.unsplash.com/random/300x200/?hotel",
+          imageUrl: "https://media-cdn.tripadvisor.com/media/photo-s/18/6a/d3/1d/srimangal-is-an-upazila.jpg",
         },
       ],
       food: [
         {
           name: "Srimangal Tea",
           description: "World-famous black tea grown in the highlands.",
-          imageUrl: "https://source.unsplash.com/random/300x200/?tea",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/28/A_cup_of_black_tea_from_Srimangal_Bangladesh.jpg",
         },
         {
           name: "Wild Honey",
           description: "Harvested from the forests, rich in flavor and nutrients.",
-          imageUrl: "https://source.unsplash.com/random/300x200/?honey",
+          imageUrl: "https://www.mahakaalprasad.com/cdn/shop/files/jungleehoney1_300x.jpg?v=1710578030",
         },
       ],
       attractions: [
@@ -49,8 +49,8 @@ export const mockTravelData = (location: string): TravelData | null => {
         },
       ],
       images: [
-        "https://source.unsplash.com/random/800x400/?forest",
-        "https://source.unsplash.com/random/800x400/?tea-plantation",
+        "https://images.squarespace-cdn.com/content/v1/6102abeba9fd55174a180768/557b2833-24a8-4bb7-9409-771430c82a2f/beautiful+sreemangal",
+        "https://www.deshghuri.com/wp-content/uploads/2014/10/ham-ham-waterfall-srimangal-sreemangal.jpg",
       ],
     },
     "Sylhet": {
